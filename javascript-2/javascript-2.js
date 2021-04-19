@@ -35,7 +35,9 @@ let foods = [
   and then adding the results together. 
 */
 
-//CODE HERE
+// foods.forEach((calories, index, array){
+  
+// })
 
 //////////////////////////////////PROBLEMS 2-4//////////////////////////////////
 /*
@@ -80,7 +82,7 @@ const products = [
   Save the copy to a new variable called 'saleProducts'.
 */
 
-//CODE HERE
+// let saleProducts = products.map(function(element, index, array)
 
 ////////////////////PROBLEM 3////////////////////
 /*
@@ -90,7 +92,7 @@ const products = [
   (Hint: look up the array method 'includes' on MDN)
 */
 
-//CODE HERE
+
 
 ////////////////////PROBLEM 4////////////////////
 /*
@@ -129,7 +131,7 @@ const shippingInfo = {
   that combines the contactInfo and shippingInfo objects.
 */
 
-//CODE HERE
+//  const helensInfo = Object.assign({}, (contactInfo, shippingInfo))
 
 ////////////////////PROBLEM 6////////////////////
 /*
@@ -215,7 +217,7 @@ const userInfo = {
   using dot notation.
 */
 
-//CODE HERE
+// const shouldAlert = userInfo.settings.alerts
 
 ////////////////////PROBLEM 10////////////////////
 /*
@@ -223,7 +225,7 @@ const userInfo = {
   using dot and/or bracket notation.
 */
 
-//CODE HERE
+
 
 ////////////////////PROBLEM 11////////////////////
 /*
@@ -250,7 +252,24 @@ const userInfo = {
       - create at least 2 kid objects
 */
 
-//CODE HERE
+let person = {
+  name: 'Nic',
+  age: 23,
+  jobs: ['Fab', 'Chem', 'Mechanic'],
+  birthday: d,
+  favorites: {
+    color: 'purple',
+    number: 7,
+    book: 'Dr. suess',
+    kids: [{
+      name: 'No kids',
+      age: 1
+  },
+  {
+    name: 'Yet',
+    age: 1
+  }]
+}
 
 //////////////////////////////////PROBLEMS 13-14//////////////////////////////////
 /*
@@ -284,9 +303,9 @@ const workout = {
   Uncomment the correct answer below.
 */
 
-function myFunc() {
-  return this
-}
+// function myFunc() {
+//   return this
+// }
 
 //let context2 = myFunc
 // let context2 = window
