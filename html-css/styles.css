@@ -21,37 +21,110 @@ body{
     width: 100%;
     display: flex;
     align-items: flex-start;
-    
+    align-items: center;
 }
 .page-title{
     color: rgb(42, 171, 226);
     width: 300px;
     display: inline-block;
+    margin-left: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .nav{
-    width: 300px;
-    display: inline-block;
+    width: 500px;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    margin-left: 40%;
+    color: white;
+    display: inline;
 }
 .navi{
     display: flex;
     color: white;
     flex-direction: row;
-    display: inline-block;
+    display: inline;
     justify-content: space-evenly;
     align-items: center;
 }
 .section{
+    padding: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 .aside{
     display: flex;
-    border: black solid 2px;
+    /* border: black solid 2px; */
     width: 200px;
     flex-direction: column;
     position: relative;
-    left: 80%;
+    float: right;
+}
+.para1{
+    width: 70%;
+    margin: 10px;
+}
+.para2{
+    width: 70%;
+    margin: 10px;
+}
+.para3{
+    width: 70%;
+    margin: 10px;
+}
+.artic{
+    margin-left: 15%;
+}
+.title{
+    width: 150px;
+    margin-right: 300px;
+}
+article{
+    float: none;
+}
+.userProfile{
+    /* border: black solid 2px; */
+    margin-bottom: 50px;
+    box-shadow: lightgrey 0px 0px 20px 2px;
+    border-radius: 10px 10px 10px 10px;
+    width: 175px;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+.links{
+    /* border: black solid 2px; */
+    box-shadow: lightgrey 0px 0px 20px 2px;
+    border-radius: 10px 10px 10px 10px;
+    /* padding-left: 25px; */
+    /* padding-right: 25px; */
+}
+.name{
+    margin-left: 15px;
+}
+.larger{
+    margin-left: 60%;
+    color: rgb(42, 171, 226)
+}
+.footer{
+    background-color: rgb(42, 171, 226);
+    height: 5vh;
+    padding: 5px;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    font-size: 20px;
+    color: rgb(42, 171, 226);
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+    justify-content: space-evenly;
 }
 
 
